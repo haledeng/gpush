@@ -1,0 +1,29 @@
+{
+  "name": "gpush",
+  "version": "1.0.0",
+  "description": "git auto push",
+  "main": "bin/push.js",
+  "bin": {
+    "gpush": "bin/push.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haledeng/gpush.git"
+  },
+  "keywords": [
+    "git",
+    "auto"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haledeng/gpush/issues"
+  },
+  "homepage": "https://github.com/haledeng/gpush#readme",
+  "dependencies": {
+    "shelljs": "^0.7.8"
+  }
+}
